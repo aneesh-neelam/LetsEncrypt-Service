@@ -1,0 +1,6 @@
+[Unit]
+Description=Let's Encrypt SSL Certificate Renewal
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/letsencrypt-renew
