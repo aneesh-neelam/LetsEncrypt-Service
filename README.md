@@ -10,6 +10,5 @@ Renewing and backing up Let's Encrypt SSL certificates
 ##### Installation
 
 * Extract the files to the respective directories
-* `systemctl start letsencrypt.timer`
-* `systemctl enable letsencrypt.timer`
-
+* `# systemctl start letsencrypt.timer`
+* `# systemctl enable letsencrypt.timer`
